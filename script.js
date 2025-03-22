@@ -83,3 +83,16 @@ document
         }, 100);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  let views = localStorage.getItem("pageViews");
+
+  if (views === null) {
+    views = 1;
+  } else {
+    views = parseInt(views) + 1;
+  }
+
+  localStorage.setItem("pageViews", views);
+  document.getElementById("viewsCounter").textContent = views;
+});
