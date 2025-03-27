@@ -1,7 +1,7 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(0.625rem);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -11,7 +11,7 @@
 
 @keyframes slideIn {
   from {
-    transform: translateX(-3.125rem);
+    transform: translateX(-50px);
     opacity: 0;
   }
   to {
@@ -26,7 +26,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-0.625rem);
+    transform: translateY(-10px);
   }
 }
 
@@ -34,6 +34,7 @@
   background-color: black;
   color: white;
   font-family: "Jaini", system-ui;
+  font-size : 1.35rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,22 +44,22 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1.25rem;
+  padding: 20px;
 }
 
 video {
-  border-radius: 1.5625rem;
+  border-radius: 25px;
   transition: 0.4s ease-in-out;
 }
 
 video:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 1.25rem rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 a {
-  padding-left: 6.25rem;
-  font-size: 1.125rem;
+  padding-left: 100px;
+  font-size: 18px;
   text-decoration: none;
   text-align: center;
 }
@@ -70,7 +71,7 @@ a {
 }
 
 .stud {
-  padding-left: 51.25rem;
+  padding-left: 820px;
 }
 
 h1,
@@ -81,16 +82,16 @@ h3 {
 }
 
 h1 {
-  padding: 3.125rem 0;
+  padding: 50px 0;
 }
 
 h2 {
-  margin: 0.625rem 0;
-  padding-top: 3.125rem;
+  margin: 10px 0;
+  padding-top: 50px;
 }
 
 h3 {
-  margin: 0.625rem 0;
+  margin: 10px 0;
 }
 
 h1:hover,
@@ -102,16 +103,16 @@ h3:hover {
 
 h1:hover,
 h2:hover {
-  text-shadow: 0 0 0.625rem rgb(255, 140, 0), 0 0 1.25rem rgb(255, 140, 0);
+  text-shadow: 0 0 10px rgb(255, 140, 0), 0 0 20px rgb(255, 140, 0);
 }
 
 .slideshow {
-  width: 75rem;
-  height: 37.5rem;
+  width: 1200px;
+  height: 600px;
   overflow: hidden;
   margin: auto;
   position: relative;
-  border-radius: 1.875rem;
+  border-radius: 30px;
   animation: slideIn 1s ease-out;
 }
 
@@ -119,12 +120,12 @@ h2:hover {
   display: flex;
   width: 200%;
   animation: slide 10s infinite alternate ease-in-out;
-  border-radius: 1.875rem;
+  border-radius: 30px;
 }
 
 .photu {
-  width: 75rem;
-  height: 37.5rem;
+  width: 1200px;
+  height: 600px;
   object-fit: cover;
   transition: 0.4s ease-in-out;
 }
@@ -144,18 +145,18 @@ h2:hover {
 
 .students {
   text-align: center;
-  margin-top: 1.875rem;
+  margin-top: 30px;
 }
 
 footer {
   text-align: center;
-  padding: 1.25rem;
-  margin-top: 1.875rem;
+  padding: 20px;
+  margin-top: 30px;
   transition: 0.3s ease-in-out;
 }
 
 footer:hover {
-  text-shadow: 0 0 0.625rem white;
+  text-shadow: 0 0 10px white;
 }
 
 .gallery-container {
@@ -164,13 +165,13 @@ footer:hover {
   justify-content: center;
   width: 100%;
   overflow: hidden;
-  padding: 1.25rem 0;
+  padding: 20px 0;
 }
 
 .gallery {
   display: flex;
   flex-wrap: nowrap;
-  gap: 0.9375rem;
+  gap: 15px;
   overflow: hidden;
   scroll-behavior: smooth;
   max-width: 80%;
@@ -178,9 +179,9 @@ footer:hover {
 }
 
 .flip-container {
-  width: 12.5rem;
-  height: 18.75rem;
-  perspective: 62.5rem;
+  width: 200px;
+  height: 300px;
+  perspective: 1000px;
   flex: 0 0 auto;
 }
 
@@ -202,13 +203,13 @@ footer:hover {
   height: 100%;
   position: absolute;
   backface-visibility: hidden;
-  border-radius: 0.625rem;
+  border-radius: 10px;
 }
 
 .flip-front img {
   width: 100%;
   height: 100%;
-  border-radius: 0.625rem;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -219,7 +220,7 @@ footer:hover {
   align-items: center;
   justify-content: center;
   transform: rotateY(180deg);
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -227,12 +228,12 @@ footer:hover {
 .next-btn {
   background-color: white;
   color: black;
-  font-size: 1.5rem;
+  font-size: 24px;
   border: none;
   cursor: pointer;
-  padding: 0.625rem 0.9375rem;
-  margin: 0 0.625rem;
-  border-radius: 0.3125rem;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
   transition: 0.3s;
 }
 
@@ -254,82 +255,82 @@ body {
 
 #socialmedia h3 {
   display: flex;
-  gap: 0.3125rem;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }
 
 #socialmedia a {
-  padding: 0;
+  padding: 0px;
 }
 
 #insta {
-  width: 1.25rem;
+  width: 20px;
   height: auto;
   position: absolute;
-  right: 31.25rem;
+  right: 500px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 #logo {
-  width: 1.875rem;
+  width: 30px;
 }
 
 .TD1 {
-  width: 50rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 800px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .TD2 {
-  width: 37.5rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 600px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .TD3,
 .TD5 {
-  width: 34.375rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 550px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .TD4 {
-  width: 21.875rem;
-  height: 31.25rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 350px;
+  height: 500px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .BB1 {
-  width: 50rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 800px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .BB2,
 .BB3 {
-  width: 34.375rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 550px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .SC1 {
-  width: 50rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 800px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .SC3 {
-  width: 21.875rem;
-  border-radius: 1.875rem;
-  padding: 1.25rem;
+  width: 350px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .SC2 {
-  border-radius: 1.875rem;
-  padding: 1.875rem;
+  border-radius: 30px;
+  padding: 30px;
 }
 
 p {
@@ -357,7 +358,7 @@ p {
 }
 
 #events video {
-  padding: 1.25rem;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -368,13 +369,14 @@ img {
 
 #events img:hover,
 img:hover {
-  box-shadow: 0 0 0.9375rem 0.3125rem rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
   transform: scale(1.05);
 }
 
 .box:hover {
-  text-shadow: 0 0 1.25rem red, 0 0 1.25rem red;
-                                           }
+  text-shadow: 0 0 20px red, 0 0 20px red;
+}
+
 .jaini-regular {
   font-family: "Jaini", system-ui;
   font-weight: 400;
