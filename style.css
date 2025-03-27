@@ -33,7 +33,7 @@
 * {
   background-color: black;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Jaini", system-ui;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -375,3 +375,8 @@ img:hover {
 .box:hover {
   text-shadow: 0 0 1.25rem red, 0 0 1.25rem red;
                                            }
+.jaini-regular {
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
